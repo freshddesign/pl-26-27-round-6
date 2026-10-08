@@ -1,0 +1,407 @@
+{
+ "league": {
+  "name": "Premier League",
+  "code": "PL",
+  "round": "Matchweek 6",
+  "season": "2026/27"
+ },
+ "tableLabel": "Table before Matchweek 6 (after matchday 5)",
+ "teams": {
+  "ARS": {
+   "name": "Arsenal",
+   "color": "#EF0107",
+   "venue": "Emirates Stadium",
+   "city": "London",
+   "lat": 51.5549,
+   "lng": -0.1084
+  },
+  "AVL": {
+   "name": "Aston Villa",
+   "color": "#670E36",
+   "venue": "Villa Park",
+   "city": "Birmingham",
+   "lat": 52.5092,
+   "lng": -1.8847
+  },
+  "BOU": {
+   "name": "Bournemouth",
+   "color": "#DA291C",
+   "venue": "Vitality Stadium",
+   "city": "Bournemouth",
+   "lat": 50.7352,
+   "lng": -1.8383
+  },
+  "BRE": {
+   "name": "Brentford",
+   "color": "#E30613",
+   "venue": "Gtech Community Stadium",
+   "city": "London",
+   "lat": 51.4907,
+   "lng": -0.2886
+  },
+  "BHA": {
+   "name": "Brighton",
+   "color": "#0057B8",
+   "venue": "Amex Stadium",
+   "city": "Brighton",
+   "lat": 50.8618,
+   "lng": -0.0837
+  },
+  "CHE": {
+   "name": "Chelsea",
+   "color": "#034694",
+   "venue": "Stamford Bridge",
+   "city": "London",
+   "lat": 51.4817,
+   "lng": -0.191
+  },
+  "COV": {
+   "name": "Coventry City",
+   "color": "#59CBE8",
+   "venue": "Coventry Building Society Arena",
+   "city": "Coventry",
+   "lat": 52.4488,
+   "lng": -1.4955
+  },
+  "CRY": {
+   "name": "Crystal Palace",
+   "color": "#1B458F",
+   "venue": "Selhurst Park",
+   "city": "London",
+   "lat": 51.3983,
+   "lng": -0.0856
+  },
+  "EVE": {
+   "name": "Everton",
+   "color": "#003399",
+   "venue": "Hill Dickinson Stadium",
+   "city": "Liverpool",
+   "lat": 53.4261,
+   "lng": -3.004
+  },
+  "FUL": {
+   "name": "Fulham",
+   "color": "#FFFFFF",
+   "venue": "Craven Cottage",
+   "city": "London",
+   "lat": 51.475,
+   "lng": -0.2217
+  },
+  "HUL": {
+   "name": "Hull City",
+   "color": "#F5A12D",
+   "venue": "MKM Stadium",
+   "city": "Hull",
+   "lat": 53.7461,
+   "lng": -0.3675
+  },
+  "IPS": {
+   "name": "Ipswich Town",
+   "color": "#3A64A3",
+   "venue": "Portman Road",
+   "city": "Ipswich",
+   "lat": 52.0546,
+   "lng": 1.145
+  },
+  "LEE": {
+   "name": "Leeds United",
+   "color": "#FFCD00",
+   "venue": "Elland Road",
+   "city": "Leeds",
+   "lat": 53.7778,
+   "lng": -1.5722
+  },
+  "LIV": {
+   "name": "Liverpool",
+   "color": "#C8102E",
+   "venue": "Anfield",
+   "city": "Liverpool",
+   "lat": 53.4308,
+   "lng": -2.9608
+  },
+  "MCI": {
+   "name": "Manchester City",
+   "color": "#6CABDD",
+   "venue": "Etihad Stadium",
+   "city": "Manchester",
+   "lat": 53.4831,
+   "lng": -2.2004
+  },
+  "MUN": {
+   "name": "Manchester United",
+   "color": "#DA291C",
+   "venue": "Old Trafford",
+   "city": "Manchester",
+   "lat": 53.4631,
+   "lng": -2.2913
+  },
+  "NEW": {
+   "name": "Newcastle United",
+   "color": "#241F20",
+   "venue": "St James' Park",
+   "city": "Newcastle",
+   "lat": 54.9756,
+   "lng": -1.6217
+  },
+  "NFO": {
+   "name": "Nottingham Forest",
+   "color": "#DD0000",
+   "venue": "City Ground",
+   "city": "Nottingham",
+   "lat": 52.94,
+   "lng": -1.1329
+  },
+  "SUN": {
+   "name": "Sunderland",
+   "color": "#EB172B",
+   "venue": "Stadium of Light",
+   "city": "Sunderland",
+   "lat": 54.9146,
+   "lng": -1.388
+  },
+  "TOT": {
+   "name": "Tottenham Hotspur",
+   "color": "#132257",
+   "venue": "Tottenham Hotspur Stadium",
+   "city": "London",
+   "lat": 51.6043,
+   "lng": -0.0663
+  }
+ },
+ "matches": [
+  {
+   "id": "m1",
+   "home": "ARS",
+   "away": "LEE",
+   "kickoff": "2026-10-10T12:30:00+01:00",
+   "confirmed": false,
+   "facts": [
+    "Arsenal, champions in 2025-26, lost 3-0 at Brighton last time out, their only defeat of the season so far.",
+    "Leeds are unbeaten after five games (two wins, three draws) and drew 0-0 with Crystal Palace last time out.",
+    "Arsenal goalkeeper David Raya is joint top of the league for clean sheets with 3."
+   ]
+  },
+  {
+   "id": "m2",
+   "home": "AVL",
+   "away": "BRE",
+   "kickoff": "2026-10-10T15:00:00+01:00",
+   "confirmed": false,
+   "facts": [
+    "Aston Villa won 3-2 away at Tottenham last time out.",
+    "Brentford beat Chelsea 3-0 at home last time out and are unbeaten after five games (two wins, three draws)."
+   ]
+  },
+  {
+   "id": "m3",
+   "home": "CHE",
+   "away": "BOU",
+   "kickoff": "2026-10-10T15:00:00+01:00",
+   "confirmed": false,
+   "facts": [
+    "Chelsea lost 3-0 at Brentford last time out.",
+    "Bournemouth are still looking for their first win: three draws and two defeats, the latest a 1-0 loss at home to Liverpool."
+   ]
+  },
+  {
+   "id": "m4",
+   "home": "IPS",
+   "away": "FUL",
+   "kickoff": "2026-10-10T15:00:00+01:00",
+   "confirmed": false,
+   "facts": [
+    "Newly promoted Ipswich lost 1-0 at Everton last time out.",
+    "Fulham drew 1-1 with Man Utd last time out and are still without a win this season (two draws, three defeats)."
+   ]
+  },
+  {
+   "id": "m5",
+   "home": "SUN",
+   "away": "BHA",
+   "kickoff": "2026-10-10T15:00:00+01:00",
+   "confirmed": false,
+   "facts": [
+    "Sunderland lost 5-3 at Manchester City last time out even though their striker scored a hat-trick.",
+    "Brighton beat Arsenal 3-0 last time out and have the best goal difference in the league (+11) after five games."
+   ]
+  },
+  {
+   "id": "m6",
+   "home": "MUN",
+   "away": "TOT",
+   "kickoff": "2026-10-10T17:30:00+01:00",
+   "confirmed": true,
+   "facts": [
+    "Tottenham, now managed by Roberto De Zerbi, are still without a win this season (two draws, three defeats), the latest a 3-2 home loss to Aston Villa.",
+    "Man Utd drew 1-1 at Fulham last time out; Bruno Fernandes has 3 goals so far this season."
+   ]
+  },
+  {
+   "id": "m7",
+   "home": "CRY",
+   "away": "NFO",
+   "kickoff": "2026-10-11T14:00:00+01:00",
+   "confirmed": false,
+   "facts": [
+    "Palace drew 0-0 with Leeds last time out. Pierre Sage became their manager in June 2026, after Oliver Glasner's contract ended.",
+    "Nottingham Forest lost 1-0 at home to newly promoted Coventry last time out."
+   ]
+  },
+  {
+   "id": "m8",
+   "home": "HUL",
+   "away": "EVE",
+   "kickoff": "2026-10-11T14:00:00+01:00",
+   "confirmed": false,
+   "facts": [
+    "Newly promoted Hull lost 2-1 at Newcastle last time out, their first defeat of the season.",
+    "Everton beat Ipswich 1-0 last time out, are unbeaten (two wins, three draws), and Jordan Pickford has 3 clean sheets."
+   ]
+  },
+  {
+   "id": "m9",
+   "home": "LIV",
+   "away": "MCI",
+   "kickoff": "2026-10-11T16:30:00+01:00",
+   "confirmed": true,
+   "facts": [
+    "Manchester City are the only team with a 100% record after five games and beat Sunderland 5-3 last time out. Erling Haaland leads the scoring charts with 5 goals.",
+    "Andoni Iraola became Liverpool manager in June 2026, after Arne Slot was sacked. Liverpool won 1-0 at Bournemouth last time out, with Alisson on 3 clean sheets."
+   ]
+  },
+  {
+   "id": "m10",
+   "home": "COV",
+   "away": "NEW",
+   "kickoff": "2026-10-12T20:00:00+01:00",
+   "confirmed": true,
+   "facts": [
+    "Coventry won 1-0 at Nottingham Forest last time out, their first Premier League win in more than 25 years.",
+    "Newcastle beat Hull 2-1 at home last time out."
+   ]
+  }
+ ],
+ "table": [
+  {
+   "tla": "MCI",
+   "p": 5,
+   "gd": 8,
+   "pts": 15
+  },
+  {
+   "tla": "ARS",
+   "p": 5,
+   "gd": 4,
+   "pts": 12
+  },
+  {
+   "tla": "BHA",
+   "p": 5,
+   "gd": 11,
+   "pts": 10
+  },
+  {
+   "tla": "BRE",
+   "p": 5,
+   "gd": 6,
+   "pts": 9
+  },
+  {
+   "tla": "LEE",
+   "p": 5,
+   "gd": 4,
+   "pts": 9
+  },
+  {
+   "tla": "LIV",
+   "p": 5,
+   "gd": 3,
+   "pts": 9
+  },
+  {
+   "tla": "EVE",
+   "p": 5,
+   "gd": 3,
+   "pts": 9
+  },
+  {
+   "tla": "HUL",
+   "p": 5,
+   "gd": 2,
+   "pts": 8
+  },
+  {
+   "tla": "NEW",
+   "p": 5,
+   "gd": 0,
+   "pts": 8
+  },
+  {
+   "tla": "CHE",
+   "p": 5,
+   "gd": -2,
+   "pts": 7
+  },
+  {
+   "tla": "IPS",
+   "p": 5,
+   "gd": -4,
+   "pts": 6
+  },
+  {
+   "tla": "MUN",
+   "p": 5,
+   "gd": 0,
+   "pts": 5
+  },
+  {
+   "tla": "NFO",
+   "p": 5,
+   "gd": -1,
+   "pts": 5
+  },
+  {
+   "tla": "SUN",
+   "p": 5,
+   "gd": -4,
+   "pts": 4
+  },
+  {
+   "tla": "CRY",
+   "p": 5,
+   "gd": -5,
+   "pts": 4
+  },
+  {
+   "tla": "AVL",
+   "p": 5,
+   "gd": -5,
+   "pts": 4
+  },
+  {
+   "tla": "BOU",
+   "p": 5,
+   "gd": -2,
+   "pts": 3
+  },
+  {
+   "tla": "COV",
+   "p": 5,
+   "gd": -9,
+   "pts": 3
+  },
+  {
+   "tla": "FUL",
+   "p": 5,
+   "gd": -3,
+   "pts": 2
+  },
+  {
+   "tla": "TOT",
+   "p": 5,
+   "gd": -6,
+   "pts": 2
+  }
+ ],
+ "tableSource": "sportpremi.com, cross-checked with newsx.com and khelnow.com"
+}
