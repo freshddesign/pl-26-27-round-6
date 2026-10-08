@@ -5,10 +5,8 @@
    *  CONFIG
    * ------------------------------------------------------------------ */
   const CFG = {
-    // Stadia Maps: register your Netlify domain under Authentication in the Stadia dashboard
-    // (domain auth, no key in the page). Or paste an API key here; restrict it to your domain.
     stadiaKey: '',
-    tileUrl: 'https://tiles.stadiamaps.com/tiles/stamen_toner_lite/{z}/{x}/{y}{r}.png',
+    tileUrl: 'https://tile.openstreetmap.org/{z}/{x}/{y}.png',
     dataUrl: 'data/premier-league.json',
     stadiumZoom: 16,
     tourDelayMs: 10500,
@@ -91,20 +89,8 @@
     });
     L.control.zoom({ position: 'bottomright', zoomInTitle: 'Zoom in', zoomOutTitle: 'Zoom out' }).addTo(map);
 
-    const attr = '&copy; <a href="https://www.stadiamaps.com/" target="_blank" rel="noopener">Stadia Maps</a> &copy; <a href="https://www.stamen.com/" target="_blank" rel="noopener">Stamen Design</a> &copy; <a href="https://openmaptiles.org/" target="_blank" rel="noopener">OpenMapTiles</a> &copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a> contributors';
-    const url = CFG.tileUrl + (CFG.stadiaKey ? `?api_key=${CFG.stadiaKey}` : '');
-    let base = L.tileLayer(url, { minZoom: 0, maxZoom: 20, attribution: attr, crossOrigin: true }).addTo(map);
-    let loaded = false, errors = 0;
-    base.on('tileload', () => { loaded = true; });
-    base.on('tileerror', () => {
-      if (loaded || ++errors !== 3) return;
-      // Stadia refuses unregistered domains: fall back to plain OSM tiles so the map is never blank
-      map.removeLayer(base);
-      var OpenStreetMap_Mapnik = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-	maxZoom: 19,
-	attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-});
-    });
+    const attr = '&copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a> contributors';
+    L.tileLayer(CFG.tileUrl, { minZoom: 0, maxZoom: 19, attribution: attr }).addTo(map);
 
     map.on('click', () => { if (activeId) showList(); });
     map.on('zoomend', () => $('#map').classList.toggle('z-low', map.getZoom() < 8));
